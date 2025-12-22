@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-primary: "Space Mono";
+  --color-primary: #e9ecef;
+  --color-primary-dark: #343a40;
+
+  --color-secondary: #dee2e6;
+  --color-secondary-dark: #495057;
+
+  --color-muted: #ced4da;
+  --color-muted-dark: #6c757d;
+
+  --color-light: #f8f9fa;
+  --color-dark: #212529;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--font-primary);
+}
