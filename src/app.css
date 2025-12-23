@@ -22,3 +22,28 @@ body {
   height: 100vh;
   font-family: var(--font-primary);
 }
+
+.label {
+  @apply text-dark dark:text-light text-base;
+}
+
+input[type="range"] {
+  @apply cursor-pointer h-2 appearance-none rounded-xl bg-muted dark:bg-muted-dark;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  @apply w-4 h-4 rounded-full bg-dark cursor-pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  @apply w-4 h-4 rounded-full bg-dark cursor-pointer;
+}
+
+.dark input[type="range"]::-webkit-slider-thumb {
+  @apply bg-light;
+}
+
+.dark input[type="range"]::-moz-range-thumb {
+  @apply bg-light;
+}

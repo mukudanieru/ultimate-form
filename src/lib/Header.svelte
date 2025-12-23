@@ -2,7 +2,7 @@
   import ThemeToggle from "./ThemeToggle.svelte";
 </script>
 
-<div class="flex flex-col justify-center items-center gap-4 w-fit">
+<div class="flex flex-col justify-center items-center gap-4 w-fit m-0">
   <h1 class="text-dark dark:text-light text-center text-2xl font-bold">
     Ultimate Form in Ohio
   </h1>
