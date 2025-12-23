@@ -4,6 +4,7 @@
   import MobileNumberForm from "./lib/MobileNumberForm.svelte";
   import NationalityForm from "./lib/NationalityForm.svelte";
   import SkinComplexionForm from "./lib/SkinComplexionForm.svelte";
+  import BirthMonthForm from "./lib/BirthMonthForm.svelte";
 </script>
 
 <main
@@ -14,4 +15,5 @@
   <MobileNumberForm />
   <NationalityForm />
   <SkinComplexionForm />
+  <BirthMonthForm />
 </main>

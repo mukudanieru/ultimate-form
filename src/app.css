@@ -55,3 +55,10 @@ input[type="range"]::-moz-range-thumb {
         hover:cursor-pointer
         rounded-lg;
 }
+
+select {
+  @apply block w-full border rounded-md text-base
+  border-secondary dark:border-secondary-dark  
+        bg-muted dark:bg-muted-dark
+        text-dark dark:text-light;
+}

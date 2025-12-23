@@ -200,3 +200,18 @@ export const nationalities = [
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value.charAt(0).toUpperCase() + value.slice(1)),
 ];
+
+export const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));

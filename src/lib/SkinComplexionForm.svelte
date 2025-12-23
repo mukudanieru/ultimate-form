@@ -1,5 +1,5 @@
 <script lang="ts">
-  let color = $state("#F5E0D3");
+  let color = $state("#f5e0d3");
 </script>
 
 <div class="flex flex-col w-full gap-2.5">
