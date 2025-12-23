@@ -4,7 +4,7 @@
 </script>
 
 <div class="flex flex-col w-full gap-2.5">
-  <label class="label" for="gender">
+  <label for="gender">
     {#if calculatedValue < 0}
       Gender: {Math.abs(calculatedValue)}% Male
     {:else if calculatedValue > 0}

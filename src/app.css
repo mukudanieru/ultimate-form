@@ -23,8 +23,8 @@ body {
   font-family: var(--font-primary);
 }
 
-.label {
-  @apply text-dark dark:text-light text-base;
+label {
+  @apply text-dark font-semibold dark:text-light text-base;
 }
 
 input[type="range"] {
@@ -46,4 +46,12 @@ input[type="range"]::-moz-range-thumb {
 
 .dark input[type="range"]::-moz-range-thumb {
   @apply bg-light;
+}
+
+.btn {
+  @apply px-5 py-2.5 bg-primary-dark dark:bg-primary text-primary dark:text-primary-dark 
+        hover:bg-primary-dark/90
+        dark:hover:bg-primary/90
+        hover:cursor-pointer
+        rounded-lg;
 }

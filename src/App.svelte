@@ -1,6 +1,7 @@
 <script lang="ts">
   import Header from "./lib/Header.svelte";
   import GenderForm from "./lib/GenderForm.svelte";
+  import MobileNumberForm from "./lib/MobileNumberForm.svelte";
 </script>
 
 <main
@@ -8,4 +9,5 @@
 >
   <Header />
   <GenderForm />
+  <MobileNumberForm />
 </main>
