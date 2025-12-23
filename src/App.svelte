@@ -7,6 +7,7 @@
   import BirthMonthForm from "./lib/BirthMonthForm.svelte";
   import AgeForm from "./lib/AgeForm.svelte";
   import EmailForm from "./lib/EmailForm.svelte";
+  import Footer from "./lib/Footer.svelte";
 </script>
 
 <main
@@ -20,4 +21,13 @@
   <BirthMonthForm />
   <AgeForm />
   <EmailForm />
+
+  <button
+    class="btn w-full"
+    onclick={() => {
+      alert("SUBMIT IT IN YOUR ASS!");
+    }}>Submit</button
+  >
+
+  <Footer />
 </main>
