@@ -2,7 +2,7 @@
   import Header from "./lib/Header.svelte";
   import GenderForm from "./lib/GenderForm.svelte";
   import MobileNumberForm from "./lib/MobileNumberForm.svelte";
-
+  import NationalityForm from "./lib/NationalityForm.svelte";
   import SkinComplexionForm from "./lib/SkinComplexionForm.svelte";
 </script>
 
@@ -12,5 +12,6 @@
   <Header />
   <GenderForm />
   <MobileNumberForm />
+  <NationalityForm />
   <SkinComplexionForm />
 </main>
