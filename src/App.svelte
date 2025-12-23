@@ -6,6 +6,7 @@
   import SkinComplexionForm from "./lib/SkinComplexionForm.svelte";
   import BirthMonthForm from "./lib/BirthMonthForm.svelte";
   import AgeForm from "./lib/AgeForm.svelte";
+  import EmailForm from "./lib/EmailForm.svelte";
 </script>
 
 <main
@@ -18,4 +19,5 @@
   <SkinComplexionForm />
   <BirthMonthForm />
   <AgeForm />
+  <EmailForm />
 </main>
